@@ -34,3 +34,8 @@ Você está livre para utilizar qualquer linguagem ou ferramenta.
 1. Adicione a esse README instruções de acesso ao seu sistema
 
 ## Acesso
+Para acessar e testar minha aplicação, basta clicar no link a seguir: https://selecao-2023-rodrigo-victor01.vercel.app/
+
+## Informações adicionais
+Em um array, criei algumas palavras/expressões ofensivas já predefinidas para realizar o filtro. <br/>
+Mas o usuário também pode adicionar palavras/expressões ofensivas a esse array para aprimorar o filtro.
