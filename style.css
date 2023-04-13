@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #142d55;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    color: #e5e4e9;
+}
+
+.commit-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commit-area textarea {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    resize: none;
+    background-color: #b7e3ff;
+    color: #142d55;
+    border: 1px solid transparent;
+}
+
+.commit-area button {
+    width: 50%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: all ease-in-out 0.35s;
+    background-color: #142d55;
+    color: #b7e3ff;
+    border: 1px solid #b7e3ff;
+    font-weight: 700;
+}
+
+.commit-area button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #b7e3ff;
+    color: #142d55;
+    border: none;
+}
+
+
+.addBadWords-area {
+    width: 577px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.addBadWords-area h3 {
+    color: #e5e4e9;
+    text-align: center;
+}
+
+.addBadWords-area input {
+    width: 50%;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #b7e3ff;
+}
+
+.addBadWords-area button {
+    padding: 10px 10px;
+    width: 50%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: all ease-in-out 0.35s;
+    background-color: #142d55;
+    color: #b7e3ff;
+    border: 1px solid #b7e3ff;
+    font-weight: 700;
+}
+
+.addBadWords-area button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #b7e3ff;
+    color: #142d55;
+    border: none;
+}
+
+.result {
+    color: #e5e4e9;
+}

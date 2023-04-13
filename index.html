@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de comentários</title>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="title">
+            <h1>Verificador de comentários</h1>
+        </div>
+
+        <div class="commit-area">
+            <textarea name="comment" cols="60" rows="10" id="comment"></textarea>
+            <button class="button" onclick="submit()">SUBMETER</button>
+        </div>
+        <div class="addBadWords-area">
+            <div class="title">
+                <h3>Adicione palavras/expressões ofensivas que você não deseja que apareça em seus comentários</h3>
+            </div>
+            <input type="text" id="input">
+            <button class="button" onclick="addBadWords()">Adicionar palavra/expressão</button>
+        </div>
+
+        <div class="result-area">
+            <h1 class="result"></h1>
+        </div>
+    </main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
